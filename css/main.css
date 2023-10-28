@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 10% 35%;
+    width: 400px;
+    height: 600px;
+    border-radius: 5%;
+    text-align: center;
+    background-color: steelblue;
+}
+
+.top-header {
+    text-align: center;
+    align-items: end;
+}
+
+.mid-header {
+    text-align: center;
+    align-content: center;
+}

@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, purple, yellow);
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    color: white;
+}
+fieldset{
+    border: 3px solid purple;
+}
+legend{
+    border: 1px solid purple;
+    padding: 10px;
+    text-align: center;
+    background-color: purple;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput {
+    top: -20px;
+    font-size: 12px;
+    color: yellow;
+}
+#nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: deepskyblue;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+/* Estilos para dispositivos mÃ³veis */
+@media only screen and (max-width: 768px) {
+    /* Adicione os estilos especÃ­ficos para dispositivos mÃ³veis aqui */
+  }
